@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "694738304418",
+    "project_id": "jop-portal-app",
+    "storage_bucket": "jop-portal-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694738304418:android:cba029ea8bd006fa9186fb",
+        "android_client_info": {
+          "package_name": "com.ammy.jobportalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694738304418-uu9dnpt22focglse18jhr8ectktvldtd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ammy.jobportalapp",
+            "certificate_hash": "6b36fa5459351d0fafd945bb3b8b3f3a45769367"
+          }
+        },
+        {
+          "client_id": "694738304418-ptbmueb64bq3bqt7oqof9abm5sf8qcd2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB96pGfM1Ji_W51lqBWViOpbkZSAEZjez4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694738304418-ptbmueb64bq3bqt7oqof9abm5sf8qcd2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
