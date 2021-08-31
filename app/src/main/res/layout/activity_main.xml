@@ -20,7 +20,6 @@
             android:orientation="vertical"
 >
 
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -28,6 +27,15 @@
                 android:textColor="@android:color/white"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:gravity="center"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="170dp"
+                android:layout_gravity="center"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:layout_height="170dp"
+                app:srcCompat="@drawable/job" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -59,12 +67,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
-
+                android:background="@drawable/button_design"
                 android:padding="15dp"
                 android:text="login"
                 android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@android:color/white"
-                ></Button>
+                android:textColor="@android:color/white"></Button>
 
             <TextView
                 android:layout_width="match_parent"
@@ -81,11 +88,11 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
 
+                android:background="@drawable/button_design"
                 android:padding="15dp"
                 android:text="Register"
                 android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@android:color/white"
-               ></Button>
+                android:textColor="@android:color/white"></Button>
 
 
         </LinearLayout>
