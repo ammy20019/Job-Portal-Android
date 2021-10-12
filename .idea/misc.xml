@@ -10,12 +10,14 @@
         <entry key="..\:/Android Apps/JobPortalApp/app/src/main/res/layout/activity_all_job.xml" value="0.18645833333333334" />
         <entry key="..\:/Android Apps/JobPortalApp/app/src/main/res/layout/activity_home.xml" value="0.18645833333333334" />
         <entry key="..\:/Android Apps/JobPortalApp/app/src/main/res/layout/activity_insert_job_post.xml" value="0.33" />
-        <entry key="..\:/Android Apps/JobPortalApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Android Apps/JobPortalApp/app/src/main/res/layout/activity_job_details.xml" value="0.33" />
+        <entry key="..\:/Android Apps/JobPortalApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Android Apps/JobPortalApp/app/src/main/res/layout/activity_post_job.xml" value="0.2" />
         <entry key="..\:/Android Apps/JobPortalApp/app/src/main/res/layout/alljobost.xml" value="0.18645833333333334" />
         <entry key="..\:/Android Apps/JobPortalApp/app/src/main/res/layout/alljobpost.xml" value="0.25" />
         <entry key="..\:/Android Apps/JobPortalApp/app/src/main/res/layout/job_post_item.xml" value="0.25" />
         <entry key="..\:/Android Apps/JobPortalApp/app/src/main/res/layout/toolbar.xml" value="0.18645833333333334" />
+        <entry key="..\:/Android Apps/JobPortalApp/app/src/main/res/menu/mainmenu.xml" value="0.1" />
       </map>
     </option>
   </component>

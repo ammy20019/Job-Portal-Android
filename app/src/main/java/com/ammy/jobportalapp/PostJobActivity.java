@@ -22,10 +22,13 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.database.Query;
+import androidx.appcompat.widget.Toolbar;
 
 public class PostJobActivity extends AppCompatActivity {
 
     private FloatingActionButton fabBtn;
+
+    private Toolbar toolbar;
 
     //Recylcler view activity
     private RecyclerView recyclerView;
@@ -38,6 +41,12 @@ public class PostJobActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_post_job);
+
+        toolbar=findViewById(R.id.toolbar_post_job);
+        setSupportActionBar(toolbar);
+
+        getSupportActionBar().setHomeButtonEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         fabBtn = findViewById(R.id.fab_add);
 
@@ -131,7 +140,7 @@ public class PostJobActivity extends AppCompatActivity {
 
         public void setJobSalary(String salary){
             TextView mSalary = myview.findViewById(R.id.job_salary);
-            mSalary.setText("Salary");
+            mSalary.setText(salary);
         }
     }
 }

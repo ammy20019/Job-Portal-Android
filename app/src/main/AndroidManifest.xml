@@ -11,16 +11,23 @@
         android:theme="@style/Theme.JobPortalApp">
         <activity
             android:name=".InsertJobPostActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".PostJobActivity"/>
         <activity
             android:name=".PostJobActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".HomeActivity"/>
         <activity
             android:name=".AllJobActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".HomeActivity"/>
         <activity
             android:name=".HomeActivity"
             android:exported="true" />
+        <activity
+            android:name=".JobDetailsActivity"
+            android:exported="true"
+            android:parentActivityName=".AllJobActivity"/>
         <activity
             android:name=".RegistrationActivity"
             android:exported="true" />
